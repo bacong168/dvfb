@@ -28,7 +28,29 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "105215234654850");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
 
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 </head>
 
 <body>
@@ -199,58 +221,83 @@
               <!-- End Table with hoverable rows -->
 
             </div>
+        </div>
+         <!-- DỊCH VỤ TIKTOK -->
+        <div class="card">
+          <div class="card-body bg-light ">
+            <h5 class="card-title fw-bold fs-3">DỊCH VỤ TIKTOK</h5>
 
-            <!-- DỊCH VỤ TIKTOK -->
+            <!-- Table with hoverable rows -->
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th scope="col"><img data-v-630e00a8="" src="https://admin.hacklikefb.net/img/icon/seeding/tk.png" height="30px" style="vertical-align: sub;"></th>
+                  <th scope="col">Dịch vụ</th>
+                  <th scope="col">Giá</th>
+                  <th scope="col">Liên hệ</th>
+                  <th scope="col">Suport</th>
+                  <th scope="col">Hỗ trợ</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row"><img data-v-630e00a8="" src="https://admin.hacklikefb.net/img/icon/seeding/tk_like.png" height="30px" style="vertical-align: sub;"></th>
+                  <td>1000 Tym TikTok</td>
+                  <td>69.000 vnđ</td>
+                  <td><a href="https://www.facebook.com/page.nay.cua.cong"><img data-v-630e00a8="" src="https://admin.hacklikefb.net/img/icon/seeding/fb.png" height="30px" style="vertical-align: sub;"></a></td>
+                  <td><a href="https://zalo.me/0399838499"><img data-v-630e00a8="" src="https://cdn-icons-png.flaticon.com/128/906/906382.png" height="30px" style="vertical-align: sub;"></a></td>
+                  <td><a href="https://www.instagram.com/_nguyenbacong_/"><img data-v-630e00a8="" src="assets/img/favicon.png" height="30px" style="vertical-align: sub;"></a></td>
+                </tr>
+                <tr>
+                  <th scope="row"><img data-v-630e00a8="" src="	https://admin.hacklikefb.net/img/icon/seeding/tk_like.png" height="30px" style="vertical-align: sub;"></th>
+                  <td>1000 Follow TikTok</td>
+                  <td>99.000 vnđ</td>
+                  <td><a href="https://www.facebook.com/page.nay.cua.cong"><img data-v-630e00a8="" src="https://admin.hacklikefb.net/img/icon/seeding/fb.png" height="30px" style="vertical-align: sub;"></a></td>
+                  <td><a href="https://zalo.me/0399838499"><img data-v-630e00a8="" src="https://cdn-icons-png.flaticon.com/128/906/906382.png" height="30px" style="vertical-align: sub;"></a></td>
+                  <td><a href="https://www.instagram.com/_nguyenbacong_/"><img data-v-630e00a8="" src="assets/img/favicon.png" height="30px" style="vertical-align: sub;"></a></td>
+                </tr>
+                <tr>
+                  <th scope="row"><img data-v-630e00a8="" src="https://admin.hacklikefb.net/img/icon/seeding/tk_vip_like.png" height="30px" style="vertical-align: sub;"></th>
+                  <td>1000 View TikTok</td>
+                  <td>5.000 vnđ</td>
+                  <td><a href="https://www.facebook.com/page.nay.cua.cong"><img data-v-630e00a8="" src="https://admin.hacklikefb.net/img/icon/seeding/fb.png" height="30px" style="vertical-align: sub;"></a></td>
+                  <td><a href="https://zalo.me/0399838499"><img data-v-630e00a8="" src="https://cdn-icons-png.flaticon.com/128/906/906382.png" height="30px" style="vertical-align: sub;"></a></td>
+                  <td><a href="https://www.instagram.com/_nguyenbacong_/"><img data-v-630e00a8="" src="assets/img/favicon.png" height="30px" style="vertical-align: sub;"></a></td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- End Table with hoverable rows -->
 
-            <div class="card">
-              <div class="card-body bg-light ">
-                <h5 class="card-title fw-bold fs-3">DỊCH VỤ TIKTOK</h5>
-  
-                <!-- Table with hoverable rows -->
-                <table class="table table-hover">
-                  <thead>
-                    <tr>
-                      <th scope="col"><img data-v-630e00a8="" src="https://admin.hacklikefb.net/img/icon/seeding/tk.png" height="30px" style="vertical-align: sub;"></th>
-                      <th scope="col">Dịch vụ</th>
-                      <th scope="col">Giá</th>
-                      <th scope="col">Liên hệ</th>
-                      <th scope="col">Suport</th>
-                      <th scope="col">Hỗ trợ</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row"><img data-v-630e00a8="" src="https://admin.hacklikefb.net/img/icon/seeding/tk_like.png" height="30px" style="vertical-align: sub;"></th>
-                      <td>1000 Tym TikTok</td>
-                      <td>69.000 vnđ</td>
-                      <td><a href="https://www.facebook.com/page.nay.cua.cong"><img data-v-630e00a8="" src="https://admin.hacklikefb.net/img/icon/seeding/fb.png" height="30px" style="vertical-align: sub;"></a></td>
-                      <td><a href="https://zalo.me/0399838499"><img data-v-630e00a8="" src="https://cdn-icons-png.flaticon.com/128/906/906382.png" height="30px" style="vertical-align: sub;"></a></td>
-                      <td><a href="https://www.instagram.com/_nguyenbacong_/"><img data-v-630e00a8="" src="assets/img/favicon.png" height="30px" style="vertical-align: sub;"></a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row"><img data-v-630e00a8="" src="	https://admin.hacklikefb.net/img/icon/seeding/tk_like.png" height="30px" style="vertical-align: sub;"></th>
-                      <td>1000 Follow TikTok</td>
-                      <td>99.000 vnđ</td>
-                      <td><a href="https://www.facebook.com/page.nay.cua.cong"><img data-v-630e00a8="" src="https://admin.hacklikefb.net/img/icon/seeding/fb.png" height="30px" style="vertical-align: sub;"></a></td>
-                      <td><a href="https://zalo.me/0399838499"><img data-v-630e00a8="" src="https://cdn-icons-png.flaticon.com/128/906/906382.png" height="30px" style="vertical-align: sub;"></a></td>
-                      <td><a href="https://www.instagram.com/_nguyenbacong_/"><img data-v-630e00a8="" src="assets/img/favicon.png" height="30px" style="vertical-align: sub;"></a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row"><img data-v-630e00a8="" src="https://admin.hacklikefb.net/img/icon/seeding/tk_vip_like.png" height="30px" style="vertical-align: sub;"></th>
-                      <td>1000 View TikTok</td>
-                      <td>5.000 vnđ</td>
-                      <td><a href="https://www.facebook.com/page.nay.cua.cong"><img data-v-630e00a8="" src="https://admin.hacklikefb.net/img/icon/seeding/fb.png" height="30px" style="vertical-align: sub;"></a></td>
-                      <td><a href="https://zalo.me/0399838499"><img data-v-630e00a8="" src="https://cdn-icons-png.flaticon.com/128/906/906382.png" height="30px" style="vertical-align: sub;"></a></td>
-                      <td><a href="https://www.instagram.com/_nguyenbacong_/"><img data-v-630e00a8="" src="assets/img/favicon.png" height="30px" style="vertical-align: sub;"></a></td>
-                    </tr>
-                  </tbody>
-                </table>
-                <!-- End Table with hoverable rows -->
-  
+          </div>
+        </div>
+        <div class="card">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">SHARE TOOL REPORT FACEBOOK HÀNG LOẠT NGON NHẤT 2022</h5>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/4Ox24As7qmc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
               </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">CÁCH MUA VÀ ĐĂNG NHẬP TRÊN TAPHOAMOMO</h5>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/CCUWrUU3D1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
     </section>
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
 
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
