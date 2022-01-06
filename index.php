@@ -58,9 +58,9 @@
     <section class="section dashboard">
       <div class="row">
         <!-- Left side columns -->
-        <div class="col-lg-2">
+        <div class="col-lg-3">
           
-          <div class="card" style="width: 18rem;">
+          <div class="card">
             <img src="https://scontent.fhan5-10.fna.fbcdn.net/v/t1.6435-9/204986569_324494222726949_7444253694544876328_n.png?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ARJYMtDCUXgAX9hX5-Z&_nc_ht=scontent.fhan5-10.fna&oh=00_AT8d3q1xvYReUu_sZ8l6X05JUP5961duAKTqHJcjDbNFpQ&oe=61EC3C67" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">DỊCH VỤ CÔNG NGUYỄN</h5>
@@ -87,7 +87,7 @@
         </div><!-- End Left side columns -->
 
         <!-- Right side columns -->
-        <div class="col-lg-10 card_margin">
+        <div class="col-lg-9 card_margin">
           <div class="card">
             <div class="card-body bg-light ">
               <h5 class="card-title fw-bold fs-3">DỊCH VỤ FACEBOOK</h5>
